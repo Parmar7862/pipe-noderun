@@ -45,7 +45,7 @@ mkdir download_cache
 ````
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ```
-
+````
 # Open Another Window for WSL or VPS
 
 ## Save the file
