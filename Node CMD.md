@@ -46,19 +46,6 @@ mkdir download_cache
 ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ```
 
-OR
-```
-./pop \
-
---ram 8 \              # RAM in GB
-
---max-disk 500 \       # Max disk usage in GB  
-
---cache-dir /data \    # Cache location
-
---pubKey <KEY>         # Solana public key (Address)
-```
-
 Note: Put your `ram` , `disk` & `pubkey` with your actual Information.Retrieve the public key from your Solana wallet (e.g., Phantom, Backpack) & Replace in `<KEY>` by Solana Address
 
 ![6165852026936868478](https://github.com/user-attachments/assets/6ceac486-a639-48ed-aa81-cccfbe02d6da)
