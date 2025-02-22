@@ -23,7 +23,7 @@ mkdir download_cache
 
 4️⃣ Signup Your Account
 ```
-./pop --signup-by-referral-route e2937a0f5d75fe2d
+./pop --signup-by-referral-route 7fddca860c06e47c
 ```
 
 ```
