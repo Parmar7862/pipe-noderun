@@ -130,5 +130,3 @@ sudo kill -9 1234
 ```
 sudo fuser -k 8003/tcp
 ```
-
-Reference Video How to Free 8003 or any port - https://youtu.be/4iP4GvLfCrU?t=229
