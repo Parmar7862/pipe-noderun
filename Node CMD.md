@@ -1,16 +1,11 @@
-# CLI Node Run Full Guide (PC and VPS for Both)
+# CLI Node Run Full Guide (PC)
 
 ### Offical Docs by Pipe Network - https://docs.pipe.network/devnet-2
 
-1️⃣ Dependencies for WINDOWS & LINUX & VPS
+1️⃣ Dependencies for WINDOWS & LINUX
 ```
 sudo apt update
 sudo apt upgrade -y
-```
-
-For VPS Only
-```
-apt install screen -y
 ```
 
 2️⃣ Download Some Files
@@ -19,11 +14,6 @@ curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"
 ```
 ```
 chmod +x pop
-```
-
-For VPS Only
-```
-screen -S pipe
 ```
 
 3️⃣ Make Directory (create folder to be used for download cache)
