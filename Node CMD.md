@@ -42,16 +42,7 @@ mkdir download_cache
 ```
 
 5️⃣ Start Node
-```
-./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
-```
-
-Note: Put your `ram` , `disk` & `pubkey` with your actual Information.Retrieve the public key from your Solana wallet (e.g., Phantom, Backpack) & Replace in `<KEY>` by Solana Address
-
-![6165852026936868478](https://github.com/user-attachments/assets/6ceac486-a639-48ed-aa81-cccfbe02d6da)
-
-If Your Node showing this Above Error then Put Below Command (Must Put `ram` , `disk` & `pubkey` value)
-```
+````
 sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>
 ```
 
